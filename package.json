@@ -18,8 +18,8 @@
   "scripts": {
     "format": "prettier --write \"**/*.{ts,ts,json,md}\"",
     "build": "tsc --project tsconfig.json",
-    "dev": "nodemon --ext ts,json --watch src --exec node --inspect=0.0.0.0:9229 -r ts-node/register lib/index.ts",
-    "start": "node index.js",
+    "dev": "nodemon --ext ts,json --watch lib --exec node --inspect=0.0.0.0:9229 -r ts-node/register lib/index.ts",
+    "start": "tsc --project tsconfig.json --watch --outDir ./dist",
     "lint": "eslint --ext .js,.ts ./lib"
   },
   "devDependencies": {
