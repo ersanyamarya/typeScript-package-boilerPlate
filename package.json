@@ -15,6 +15,9 @@
   "author": "Sanyam Arya",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "format": "prettier --write \"**/*.{ts,ts,json,md}\"",
     "build": "tsc --project tsconfig.json",

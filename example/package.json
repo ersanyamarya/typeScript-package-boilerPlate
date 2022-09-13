@@ -1,0 +1,16 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --ext ts,json --watch . --exec node --inspect=0.0.0.0:9229 -r ts-node/register app.ts"
+  },
+  "keywords": [],
+  "author": "Sanyam Arya",
+  "license": "ISC",
+  "alias": {
+    "tsc": "../node_modules/typeScript",
+    "nodemon": "../node_modules/nodemon"
+  }
+}
