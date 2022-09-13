@@ -1,6 +1,6 @@
 import { divide, multiply, sum } from '../dist'
 
-describe('It tests the sum function', () => {
+describe('Testing the sum function', () => {
   it('should add two numbers', () => {
     expect(sum(1, 2)).toBe(3)
   })
